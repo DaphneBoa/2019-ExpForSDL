@@ -1,0 +1,5 @@
+
+
+LIBRARY   baselib
+EXPORTS
+	lib_func
