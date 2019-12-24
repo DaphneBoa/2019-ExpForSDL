@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app", "app\app.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baselib", "..\baselib\baselib\baselib.vcxproj", "{F95F73E3-8319-4E79-9523-A33339E20A3C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "run-timeEXAM", "..\run-timeEXAM\run-timeEXAM\run-timeEXAM.vcxproj", "{26C86DBD-BD62-4E80-8507-B912A66A344F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F95F73E3-8319-4E79-9523-A33339E20A3C}.Release|x64.Build.0 = Release|x64
 		{F95F73E3-8319-4E79-9523-A33339E20A3C}.Release|x86.ActiveCfg = Release|Win32
 		{F95F73E3-8319-4E79-9523-A33339E20A3C}.Release|x86.Build.0 = Release|Win32
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Debug|x64.ActiveCfg = Debug|x64
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Debug|x64.Build.0 = Debug|x64
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Debug|x86.ActiveCfg = Debug|Win32
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Debug|x86.Build.0 = Debug|Win32
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Release|x64.ActiveCfg = Release|x64
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Release|x64.Build.0 = Release|x64
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Release|x86.ActiveCfg = Release|Win32
+		{26C86DBD-BD62-4E80-8507-B912A66A344F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

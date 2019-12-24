@@ -1,0 +1,11 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 _demoNtCreateThreadEx，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _demoQueueUserAPC，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _demoSetWindowsHookEx，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _demoRtlCreateUserThread，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _demoSuspendInjectResume，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _demoReflectiveDllInjection，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _findPidByName，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _displayHelp，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _checkOS，该符号在函数 _wmain 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _SetSePrivilege，该符号在函数 _wmain 中被引用
+D:\2019Term2\git_file\2019-ExpForSDL\DLLinject\CreateRemoteThread\Debug\CreateRemoteThread.exe : fatal error LNK1120: 10 个无法解析的外部命令
