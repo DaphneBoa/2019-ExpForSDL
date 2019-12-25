@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="code.c" />
+    <ClCompile Include="injectbase.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="exp.def" />

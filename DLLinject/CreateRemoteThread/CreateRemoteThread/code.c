@@ -81,7 +81,7 @@ DWORD demoCreateRemoteThreadW(PCWSTR pszLibFile, DWORD dwProcessId)
 		return(1);
 	}
 	else
-		printf(TEXT("[+] Success: DLL injected via CreateRemoteThread().\n"));
+		printf("[+] Success: DLL injected via CreateRemoteThread().\n");
 
 	// Wait for the remote thread to terminate
 	WaitForSingleObject(hThread, INFINITE);
@@ -100,9 +100,9 @@ DWORD demoCreateRemoteThreadW(PCWSTR pszLibFile, DWORD dwProcessId)
 }
 
 int main() {
-	DWORD pid = findPidByName("notepad.exe");
-	// 下面的路径是位于debug下的baselib.dll
-	demoCreateRemoteThreadW(L"D:\\2019Term2\\git_file\\2019-ExpForSDL\\DLL\\baselib\\Debug\\baselib.dll", pid);
+	//DWORD pid = findPidByName("notepad.exe");
+	//这一句中的数字是记事本的pid，每次打开记事本都会变化，所以记得修改此处的pid！
+	demoCreateRemoteThreadW(L"D:\\2019Term2\\git_file\\2019-ExpForSDL\\DLL\\baselib\\baselib\\baselib.dll", 29128);
 	getchar();
 	return 0;
 }

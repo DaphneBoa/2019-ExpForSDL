@@ -1,1 +1,2 @@
-﻿  CreateRemoteThread.vcxproj -> D:\2019Term2\git_file\2019-ExpForSDL\DLLinject\CreateRemoteThread\Debug\CreateRemoteThread.exe
+﻿viewprcs.obj : error LNK2005: _main 已经在 code.obj 中定义
+D:\2019Term2\git_file\2019-ExpForSDL\DLLinject\CreateRemoteThread\Debug\CreateRemoteThread.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

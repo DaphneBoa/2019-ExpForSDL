@@ -18,6 +18,9 @@
     <ClCompile Include="code.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="injectbase.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="exp.def">

@@ -18,6 +18,9 @@
     <ClCompile Include="code.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="viewprcs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fheaders.h">

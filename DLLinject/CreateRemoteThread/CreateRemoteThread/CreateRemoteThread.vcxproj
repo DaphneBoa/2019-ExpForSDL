@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="code.c" />
+    <ClCompile Include="viewprcs.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fheaders.h" />
